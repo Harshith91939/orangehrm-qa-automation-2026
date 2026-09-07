@@ -120,6 +120,6 @@ def run_pipeline(headless=True):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="OrangeHRM POM Automation Runner")
     parser.add_argument("--headed", action="store_true", help="Run browser in visible (headed) mode")
-    args = parser.parse_args()
+    args, unknown = parser.parse_known_args()
 
     run_pipeline(headless=not args.headed)
