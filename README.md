@@ -59,8 +59,8 @@ omnify/
 ### 2. Installation
 Clone the repository and install all required dependencies:
 ```bash
-git clone <your-repo-url>
-cd omnify
+git clone https://github.com/Harshith91939/orangehrm-qa-automation-2026.git
+cd orangehrm-qa-automation-2026
 pip install -r requirements.txt
 ```
 
